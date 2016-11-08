@@ -1,0 +1,32 @@
+$t-letra1: 'Open Sans', sans-serif;
+
+body{
+	.navegador{
+		height:70px;
+		.menu{
+			padding: 20px;
+			.logo{
+				display: inline-block;
+				position: absolute;	
+			}
+			.menu-derecha{
+				float: right;	
+				li{
+					display: inline-block;
+					font-family: $t-letra1;
+					font-weight: bold;	
+					position: relative;	
+					margin:10px 10px;
+					a{
+						text-decoration: none;
+						color: #c1c2c7;
+						font-size: 15px;
+						&:hover{
+						color: darken(#c1c2c7, 60%);
+						}
+					}
+				}
+			}
+		}	
+	}
+}

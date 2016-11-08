@@ -1,0 +1,267 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.relleno {
+  width: 100%;
+  box-sizing: border-box;
+  background: #00223b;
+  color: white;
+  text-align: center;
+  padding: 5% 0;
+  margin-top: 50px; }
+  .relleno h3 {
+    display: inline-block;
+    font-family: "Raleway", sans-serif; }
+    .relleno h3 span {
+      color: #00BFFF;
+      font-size: 30px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold; }
+
+.pie {
+  width: 100%;
+  background: #091722;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 20px 0; }
+  .pie p {
+    color: #90909c;
+    display: inline-block;
+    margin-left: 10px; }
+  .pie .almenu {
+    float: right;
+    padding: 10px 0; }
+    .pie .almenu li {
+      display: inline-block;
+      margin: 0 10px; }
+      .pie .almenu li a {
+        color: #90909c;
+        display: inline-block;
+        text-align: center;
+        box-sizing: border-box;
+        text-decoration: none; }
+        .pie .almenu li a:hover {
+          color: black; }
+    @media (max-width: 600px) {
+      .pie .almenu {
+        float: none;
+        text-align: center; } }
+
+header .navbar-default {
+  border: none;
+  background-color: transparent; }
+header .imagen-princ {
+  background-image: url("../css/img/banner1.jpg");
+  height: 600px; }
+  header .imagen-princ .caratula {
+    color: #fff;
+    margin: 50px;
+    padding-top: 150px; }
+    header .imagen-princ .caratula h1 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+      font-size: 50px; }
+    header .imagen-princ .caratula p {
+      line-height: 27px;
+      font-weight: lighter;
+      color: #fff; }
+header .buscador {
+  margin: -30px auto;
+  box-sizing: border-box;
+  z-index: 2;
+  position: relative; }
+  header .buscador input {
+    height: 60px;
+    float: left;
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    padding: 0px 20px;
+    box-sizing: border-box; }
+  header .buscador button {
+    height: 60px;
+    float: right;
+    border: 0;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: #00BFFF;
+    border-radius: 0 3px 3px 0; }
+    header .buscador button:hover {
+      background: #004c66;
+      transition-duration: 1s;
+      color: #fff; }
+    header .buscador button span {
+      padding-right: 10px; }
+
+.caracteristicas {
+  margin: 150px 0; }
+  .caracteristicas .iconos h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .caracteristicas .iconos p {
+    line-height: 27px;
+    font-weight: lighter;
+    color: #ABB0FF; }
+
+.servicios {
+  margin-top: 100px; }
+  .servicios .celular {
+    padding-top: 50px; }
+    .servicios .celular ul {
+      list-style: none; }
+      .servicios .celular ul li {
+        padding-top: 25px; }
+        .servicios .celular ul li table tr td .tabla1 {
+          text-align: right;
+          margin: 10px 0; }
+          .servicios .celular ul li table tr td .tabla1 p {
+            font-size: 10px; }
+        .servicios .celular ul li table tr td .tabla2 {
+          text-align: left;
+          margin: 10px 0; }
+          .servicios .celular ul li table tr td .tabla2 p {
+            font-size: 10px; }
+        .servicios .celular ul li table tr td img {
+          padding: 0 20px 20px 20px; }
+
+.combo .banner2 {
+  background-image: url("../css/img/pricing-bg.jpg");
+  background-size: cover;
+  height: auto; }
+  .combo .banner2 .pricing {
+    padding-top: 75px; }
+    .combo .banner2 .pricing h4 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 30px 0; }
+  .combo .banner2 .precio {
+    padding-top: 100px; }
+    .combo .banner2 .precio article {
+      width: 250px;
+      height: 500px;
+      box-sizing: border-box;
+      padding: 40px 15px 20px 15px;
+      margin: 10px;
+      border: #F0EFEF 1px solid;
+      background: #fff;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold; }
+      .combo .banner2 .precio article h3 {
+        margin-bottom: 15%;
+        font-size: 20px;
+        font-weight: bold; }
+      .combo .banner2 .precio article h4 span {
+        font-size: 25px;
+        font-weight: bold; }
+        .combo .banner2 .precio article h4 span:first-child, .combo .banner2 .precio article h4 span:nth-child(3) {
+          vertical-align: super;
+          font-size: 15px; }
+      .combo .banner2 .precio article p {
+        color: #4e4f51;
+        margin-bottom: 15%; }
+      .combo .banner2 .precio article table tr td {
+        height: 40px;
+        width: 5%;
+        text-align: left;
+        padding-left: 15%;
+        font-weight: normal;
+        color: #4e4f51; }
+      .combo .banner2 .precio article .precio1 tr td:last-child {
+        color: cyan;
+        font-weight: bold; }
+      .combo .banner2 .precio article .precio2 tr td:last-child {
+        color: #FFB92F;
+        font-weight: bold; }
+      .combo .banner2 .precio article .precio3 tr td:last-child {
+        color: #FF7739;
+        font-weight: bold; }
+      .combo .banner2 .precio article .precio4 tr td:last-child {
+        color: #FF0500;
+        font-weight: bold; }
+      .combo .banner2 .precio article .boton2 {
+        width: 85%;
+        height: 40px;
+        background: #00BFFF;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        margin-top: 30px; }
+        .combo .banner2 .precio article .boton2:hover {
+          background: #004c66;
+          transition-duration: 1s; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 2% 0; }
+
+h4 {
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+p {
+  line-height: 27px;
+  font-weight: lighter;
+  color: #ABB0FF; }
+
+/*# sourceMappingURL=style.css.map */

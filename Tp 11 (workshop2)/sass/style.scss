@@ -1,0 +1,235 @@
+@import "https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Raleway|Droid Serif";
+
+$t-logo: 'Kaushan Script', cursive;
+$t-titulo: 'Montserrat', sans-serif;
+$t-texto: 'Raleway', sans-serif;
+
+.titular{
+	font-family: $t-titulo;
+	font-size: 40px;
+ 	margin-top: 0;
+ 	padding-top: 200px;
+ 	text-transform: uppercase;
+}
+.subtitular{
+	font-family: "Droid Serif";
+	font-size: 16px;
+	text-transform: none;
+	font-weight: 400;
+	margin-bottom: 75px;
+	font-style: italic;
+}
+.fondo-gris{
+	background-color: #eee;
+}
+.contenedor{
+	padding-bottom: 200px;
+}
+.fondoicono{
+	width: 112px;
+	height: 112px;
+	background-color: #fed136;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	left: 35%;
+}
+.icono{
+	color: #fff;
+	font-size: 4em;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 27px;
+}
+header{
+	.encabezado{
+		background-image: url("img/header-bg.jpg");
+		background-size: cover;
+		height: 820px;
+		.fondo{
+			padding-top: 300px;
+			color: white;
+				.texto1{
+					font-family: "Droid Serif";
+					font-style: italic;
+					font-size: 40px;
+					line-height: 40px;
+					margin-bottom: 25px;
+				}
+				.texto2{
+					font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+					text-transform: uppercase;
+					font-weight: 700;
+					font-size: 75px;
+					line-height: 75px;
+					margin-bottom: 50px;
+				}
+				a{
+					color: #fff;
+					background-color: #fed136;
+					border-color: #f6bf01;
+					text-transform: uppercase;
+					border-radius: 3px;
+					font-size: 18px;
+					padding: 20px 40px;
+					font-family: $t-titulo;
+					font-weight: 700;
+					position: relative;
+					left: 40%;
+				}
+				a:hover{
+					background-color: #f6bf01;
+				}
+		}
+		.navbar{
+			border: none;						
+			.container-fluid{				
+				.navbar-header{
+					.navbar-brand{
+						font-family: $t-logo;
+						color: #fec503;
+						font-size: 25px;
+					}
+				}
+				.navbar-collapse{
+					.navbar-right{
+						li{
+							a{
+								font-family: $t-titulo;
+								font-size:14px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.portfolio{
+	img{
+		width: 100%;
+	}
+	.descripcion{
+		background-color: #fff;
+		padding-top: 23px;
+		height: 105px;
+		margin-bottom: 28px;
+
+		h4{
+			font-family: $t-titulo;
+		}
+	}
+}
+.circular{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	color: white;
+	font-size: 18px;
+	line-height: 26px;
+	background-color: #f6bf01;
+	h2{
+		text-align: center;
+		vertical-align: middle;
+		font-family: $t-titulo;
+		padding-top: 30px;		
+	}
+}
+.team{
+	.contenedor{
+		.row{
+			div{
+				img{
+					border: 10px solid;
+					border-color: #fff;
+				}
+				h4{
+					font-family: $t-titulo;
+					font-weight: bold;
+				}
+				p{
+					font-family: "Droid Serif";
+				}
+				ul{
+					li{
+						a{
+							display: block;
+							background-color: #222;
+							height: 40px;
+							width: 40px;
+							border-radius: 100%;
+							font-size: 20px;
+							line-height: 40px;
+							color: #fff;
+						}
+					}
+				}		
+			}
+		}
+		article{
+			h4:first-child{
+				padding-top: 50px;
+		}
+	}	
+	}
+}
+.publicidad{
+	padding: 50px;
+}
+.contacto{
+	background-color: #222;
+	background-image: url("img/map-image.png");
+	padding-bottom: 100px;
+	h2{
+		color: #fff;
+	}
+	input{
+		padding: 30px;
+	}
+	textarea{
+		height: 218px;
+	}
+	.enviar{
+		color: #fff;
+		background-color: #fed136;
+		border-color: #f6bf01;
+		text-transform: uppercase;
+		border-radius: 3px;
+		font-size: 18px;
+		padding: 20px 40px;
+		font-family: $t-titulo;
+		font-weight: 700;
+	}
+	.enviar:hover{
+		background-color: #f6bf01;
+	}
+}
+footer{
+	padding:30px;
+	span{
+		font-family: $t-titulo;
+	}
+	.social-buttons{
+		li{
+			a{
+				display: block;
+				background-color: #222;
+				height: 40px;
+				width: 40px;
+				border-radius: 100%;
+				font-size: 20px;
+				line-height: 40px;
+				color: #fff;
+				text-align: center;
+			}
+		}
+	}
+	ul{
+		li{
+			a{
+				color: #fec503;
+				font-family: $t-titulo;
+			}
+		}
+	}
+}
